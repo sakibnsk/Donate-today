@@ -4,19 +4,19 @@ body {
 }
 
 h1 {
-    color: aliceblue;
-    font-size: 110px;
+    color: purple;
+    font-size: 100px;
     text-align: center;
 }
 
 h2 {
-    color: aliceblue;
+    color: rgb(180, 22, 146);
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 p {
-    color: aliceblue;
+    color: rgb(211, 57, 177);
     text-align: center;
 }
 
@@ -34,4 +34,202 @@ p {
     background-image: url(images/bannar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px 10px;
+
+}
+
+.purple {
+    color: purple;
+}
+
+#middle {
+    text-align: center;
+    padding: 10px 50px;
+
+}
+
+.button {
+    border: 5px;
+    padding: 30px 20px;
+    background-color: pink;
+
+}
+
+
+.donateplaneWrapper {
+    width: 1130px;
+    margin: 90px auto;
+}
+
+.planeboxWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.planebox {
+    width: 29%;
+    padding: 30px 20px;
+    border-radius: 6px;
+
+}
+
+.planebox h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.planebox p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+}
+
+#planebox_one {
+    background-color: #4f9da621;
+}
+
+#planebox_two {
+    background-color: #ff59591e;
+}
+
+#planebox_three {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.donationBolgWrapper {
+    width: 1030px;
+    margin: 40px auto;
+}
+
+.donationBlog {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 60px 0px;
+}
+
+.donationBlog_left {
+    width: 46%;
+}
+
+.donationBlog_left p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.donationBlog_left h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.donationBlog_left a {
+    background-color: #d817ae;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border: 0px;
+    text-decoration: none;
+}
+
+.donationBlog_right {
+    width: 45%;
+}
+
+.donationBlog_right img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.contactWrapper {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.contact_form form {
+    border-radius: 6px;
+}
+
+.contact_form .inputfield {
+    width: 280px;
+    height: 48px;
+    background-color: #D9D9D9;
+    padding: 0px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contact_form .inputsubmit {
+    width: 150px;
+    height: 48px;
+    background-color: #c21aab;
+    color: #fff;
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;
+    background-color: #FFF4D6;
+
+}
+
+.contact_form input {
+    outline: none;
+    border: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contactWrapper h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 60px;
+}
+
+.contactWrapper p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    background-color: #000;
+    padding: 40px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+footer h1 {
+    color: #ff5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
